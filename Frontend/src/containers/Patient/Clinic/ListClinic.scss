@@ -1,0 +1,92 @@
+.c-header {
+    display        : flex;
+    justify-content: space-between;
+    margin         : 10px 0;
+
+    label {
+        font-size: 20px;
+    }
+
+    .c-h-right {
+        display: flex;
+        gap    : 15px;
+
+        .btn-province {
+            border       : 1px solid #d5d3d3;
+            padding      : 10px 20px;
+            border-radius: 10px;
+            width        : 150px;
+        }
+
+        .btn-search {
+            border          : 1px solid #d5d3d3;
+            padding         : 10px 20px;
+            border-radius   : 40px;
+            width           : 300px;
+            background-color: #f5f5f5;
+            display         : flex;
+            justify-content : space-between;
+            align-items     : center;
+
+            input {
+                font-size : 14px;
+                background: transparent;
+                border    : none;
+                outline   : none;
+            }
+
+            i {
+                font-size: 20px;
+                opacity  : .5;
+                cursor   : pointer;
+            }
+        }
+    }
+}
+
+
+
+.slider-customize {
+    display       : flex;
+    flex-direction: column;
+    padding       : 10px;
+    cursor        : pointer;
+
+    .bg-image {
+        width              : 278px;
+        height             : 180px;
+        background-position: center center;
+        background-repeat  : no-repeat;
+        background-size    : 100% auto;
+
+        &.img-medical-facility {
+            border: 1px solid rgb(172, 166, 166);
+        }
+    }
+
+    &.slider-doctor {
+        text-align: center;
+        border    : 1px solid #d5d3d3;
+
+        .img-outstandingdoctor {
+            //  background-image: url('../../assets/OutStandingDoctor/095751-bs-tran-huu-loi-yd1.jpg');
+            width        : 120px;
+            height       : 120px;
+            margin       : 0 auto;
+            border-radius: 50%;
+        }
+    }
+
+    .text {
+        font-size : 13px;
+        margin-top: 5px;
+
+        &:hover {
+            color: #2d7fa2;
+        }
+    }
+
+    .text-center {
+        text-align: center;
+    }
+}

@@ -1,0 +1,92 @@
+.detail-specialty-container {
+    background-color: #eee;
+
+    .description-specialty {
+        background-color: #fff;
+        padding         : 30px 30px 10px 70px;
+        border-top      : 1px solid #d5cece;
+
+        .specialty-name {
+            font-size    : 20px;
+            margin-bottom: 10px;
+            font-weight  : 700;
+        }
+
+        .flex {
+            display        : flex;
+            justify-content: space-between;
+
+            .see-more {
+                font-size       : 12px;
+                background-color: #caccd1;
+                color           : #2a2929;
+                padding         : 5px 10px;
+                cursor          : pointer;
+
+                &:hover {
+                    opacity: .7;
+                }
+            }
+        }
+    }
+
+    .each-doctor {
+        display         : flex;
+        width           : 100%;
+        min-height      : 300px;
+        border-radius   : 8px;
+        box-shadow      : #a0a1a3 0px 1px 6px 0px;
+        font-size       : 14px;
+        line-height     : 21px;
+        margin          : 20px 0;
+        background-color: #fff;
+
+        .dt-content-left {
+            width       : 40%;
+            padding     : 15px;
+            border-right: 1px solid #ddd;
+
+            .profile-doctor {
+                .see-more {
+                    color      : #45c3d2;
+                    font-size  : 14px;
+                    line-height: 21px;
+                    margin-left: 15px;
+                    cursor     : pointer;
+
+                    &:hover {
+                        opacity: .7;
+                    }
+                }
+            }
+        }
+
+        .dt-content-right {
+            width  : 60%;
+            padding: 15px;
+
+            .doctor-schedule {}
+
+            .doctor-extraInfor {
+                border-top : 1px solid #ddd;
+                margin-top : 10px;
+                padding-top: 10px;
+
+                .doctor-extra-infor-container {
+                    padding-left: 0 !important;
+                }
+            }
+        }
+    }
+
+    .search-sp-doctor {
+        padding: 10px 0;
+
+        select {
+            min-height   : 30px;
+            padding      : 5px;
+            border-radius: 5px;
+            border       : #6a6f79 .5px solid;
+        }
+    }
+}

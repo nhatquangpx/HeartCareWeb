@@ -1,0 +1,114 @@
+div._loading_overlay_wrapper {
+    position: unset;
+    z-index : 100000000;
+
+    ._loading_overlay_wrapper {
+        z-index: 100000000;
+    }
+}
+
+.remedy-modal-content {
+    height        : 300px;
+    display       : flex;
+    flex-direction: column;
+
+    .remedy-modal-header {
+        padding       : 4px;
+        margin        : 0 3px;
+        border-bottom : 1px solid #ccc;
+        text-transform: uppercase;
+
+        .left {
+            font-size  : 16px;
+            font-weight: 600;
+            color      : #333;
+        }
+
+        .right {
+            float        : right;
+            cursor       : pointer;
+            padding-right: 5px;
+            transition   : transform .2s;
+
+            &:hover {
+                color    : rgb(139, 134, 134);
+                transform: scale(1.5);
+            }
+        }
+    }
+
+    .remedy-modal-body {
+        padding : 15px;
+        height  : 100%;
+        position: relative;
+
+        .row {
+            .form-group {
+                margin-bottom: 5px;
+
+                label {
+                    margin-bottom: 3px;
+                }
+            }
+        }
+
+        .choose-file {
+            border-radius   : 5px;
+            background-color: rgb(89, 78, 237);
+            width           : auto;
+            padding         : 20px;
+            margin          : 30px auto;
+            color           : #fff;
+            text-transform  : uppercase;
+            border          : 1px solid #fff;
+            box-shadow      : #000000 2px 2px 7px 0px;
+
+            &:hover {
+                opacity: .7;
+            }
+        }
+    }
+
+    .remedy-modal-footer {
+        border-top     : 1px solid #ccc;
+        padding        : 5px;
+        display        : flex;
+        justify-content: flex-end;
+        gap            : 15px;
+
+        button {
+            border       : none;
+            outline      : none;
+            padding      : 5px 8px;
+            border-radius: 3px;
+            width        : 100px;
+            height       : auto;
+        }
+
+        .btn-confirm {
+            background-color: rgb(50, 48, 152);
+            color           : #fff;
+            margin-right    : 15px;
+
+            &:hover {
+                background-color: rgb(107, 106, 201);
+            }
+        }
+
+        .btn-cancel {
+            background-color: rgb(232, 186, 34);
+            color           : #fff;
+
+            &:hover {
+                background-color: rgb(242, 198, 86);
+            }
+        }
+
+        .loading-overlay {
+            font-size   : 15px;
+            font-weight : 600;
+            margin-right: 5px;
+        }
+
+    }
+}

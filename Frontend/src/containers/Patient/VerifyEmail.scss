@@ -1,0 +1,33 @@
+.message-success {
+    text-align: center;
+    margin-top: 20px;
+
+    .success {
+        font-size       : 25px;
+        color           : red;
+        background-color: yellow;
+    }
+}
+
+.message-fail {
+    text-align: center;
+    margin-top: 20px;
+
+    .fail {
+        font-size: 25px;
+        color    : red;
+    }
+
+    .home {
+        border          : 1px solid rgb(69, 32, 190);
+        color           : black;
+        padding         : 2px 10px;
+        cursor          : pointer;
+        background-color: aquamarine;
+        font-size       : 12px;
+
+        &:hover {
+            opacity: .7;
+        }
+    }
+}

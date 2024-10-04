@@ -1,0 +1,90 @@
+{
+    "home-header": {
+        "speciality": "Chuyên khoa",
+        "searchdoctor": "Tìm bác sĩ theo chuyên khoa",
+        "welcome": "Xin chào",
+        "Health facilities": "Cơ sở y tế",
+        "Choose hospital clinic": "Chọn bện viện phòng khám",
+        "Doctor": "Bác sĩ",
+        "choose a good doctor": "Chọn bác sĩ giỏi",
+        "Checkup package": "Gói khám",
+        "General health check Support": "Sức khỏe tổng quát",
+        "Support": "Hỗ trợ"
+    },
+    "detail-doctor": {
+        "calendar": "Lịch khám",
+        "text": "Hiện tại bác sĩ chưa có lịch khám bệnh!",
+        "address": "Địa chỉ khám",
+        "price": "Giá khám",
+        "detail": "Xem chi tiết",
+        "hide": "Ẩn bảng giá",
+        "infor-booking": "Thông tin đặt lịch khám bệnh",
+        "name": "Họ tên",
+        "sdt": "Số điện thoại",
+        "address-user": "Địa chỉ",
+        "reason": "Lý do khám",
+        "to whom": "Đặt cho ai?",
+        "confirm": "Xác nhận",
+        "cancel": "Hủy",
+        "sex": "Giới tính",
+        "birthday": "Ngày",
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "province": "Tỉnh thành",
+        "outstanding-doctor": "Bác sĩ nổi bật"
+    },
+    "detail-specialty": {
+        "see-more": "Xem thêm"
+    },
+    "manage-user": {
+        "edit": "Cập nhật",
+        "save": "Lưu"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Quản lý người dùng",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "crud": "CRUD user",
+            "crud-redux": "Quản lý tài khoản",
+            "manage-clinic": "Thêm cơ sở y tế",
+            "clinic": "Phòng khám",
+            "list-clinic": "Danh sách phòng khám",
+            "edit-clinic": "Chỉnh sửa phòng khám",
+            "manage-speciality": "Thêm chuyên khoa",
+            "edit-speciality": "Sửa chuyên khoa",
+            "list-speciality": "Danh sách chuyên khoa",
+            "speciality": "Chuyên khoa",
+            "manage-handbook": "Quản lý Cẩm nang",
+            "handbook": "Cẩm nang"
+        },
+        "doctor": {
+            "manage-schedule": "Quản lý kế hoạch khám bệnh",
+            "manage-patient": "Quản lý bệnh nhân khám bệnh"
+        }
+    },
+    "manage-doctor": {
+        "save": "Lưu",
+        "edit": "Cập nhật",
+        "selected-doctor": "Chọn bác sĩ",
+        "info-doctor": "Thông tin bác sĩ"
+    },
+    "manage-schedule": {
+        "title": "Quản lý kế hoạch khám bệnh của bác sĩ",
+        "save": "Lưu",
+        "selected-doctor": "Chọn bác sĩ",
+        "selected-date": "Chọn ngày"
+    },
+    "manage-patient": {
+        "title": "Quản lý bệnh nhân khám bệnh",
+        "bill": "hóa đơn khám bệnh",
+        "email": "Email bệnh nhân:",
+        "chooseFile": "Chọn file đơn thuốc",
+        "time": "Thời gian",
+        "name": "Họ tên",
+        "phone": "Số điện thoại",
+        "address": "Địa chỉ",
+        "sex": "Giới tính",
+        "chooseDay": "Chọn ngày khám"
+    }
+}

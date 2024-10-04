@@ -1,0 +1,61 @@
+.service {
+    background-color: #fff;
+    width: 1200px;
+    margin: 50px auto;
+    font-family: Montserrat, sans-serif;
+}
+
+.service h1 {
+    margin-bottom: 32px;
+    text-align: left;
+    font-weight: 300;
+    color: #1a1a1a;
+    font-size: 30px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 46px;
+}
+
+.service-item {
+    padding: 20px 0 20px 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 28px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+    background-image: url(../../../assets/service/bgr.png);
+    background-size: contain; 
+    background-position: center;
+    cursor: pointer;
+}
+
+.service-item:hover {
+    transform: scale(1.01);
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px; 
+    height: 70px; 
+    border-radius: 500px; 
+    background: radial-gradient(circle, rgb(255, 211, 84), rgb(255, 239, 195), rgb(254, 253, 251), rgb(255, 255, 255));
+}
+
+.service-item img {
+    width: 56px;
+    height: 56px;
+}
+
+.service-item p {
+    margin-left: 50px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: #333;
+    font-size: 24px;
+}

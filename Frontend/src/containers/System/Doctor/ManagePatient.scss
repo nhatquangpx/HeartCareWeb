@@ -1,0 +1,28 @@
+.manage-patient-container {
+    .actions {
+        display: flex;
+        gap    : 10px;
+    }
+
+    .btn-confirm {
+        width           : auto;
+        height          : auto;
+        padding         : 5px 10px;
+        background-color: rgb(220, 226, 120);
+
+        &:hover {
+            opacity: .7;
+        }
+    }
+
+    .btn-send {
+        width           : auto;
+        height          : auto;
+        padding         : 5px 10px;
+        background-color: aqua;
+
+        &:hover {
+            opacity: .7;
+        }
+    }
+}

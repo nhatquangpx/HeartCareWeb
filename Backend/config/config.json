@@ -1,0 +1,48 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "12345678",
+    "database": "Medical_Schedule",
+    "host": "DESKTOP-RS1LLAS",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "instanceName": "SQLEXPRESS",
+        "encrypt": false,
+        "trustServerCertificate": true
+      }
+    },
+    "query": {
+      "raw": true
+    },
+    "timezone": "+07:00"
+  },
+  "test": {
+    "username": "sa",
+    "password": "12345678",
+    "database": "Medical_Schedule",
+    "host": "DESKTOP-RS1LLAS",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "instanceName": "SQLEXPRESS",
+        "encrypt": false,
+        "trustServerCertificate": true
+      }
+    }
+  },
+  "production": {
+    "username": "sa",
+    "password": "12345678",
+    "database": "Medical_Schedule",
+    "host": "DESKTOP-RS1LLAS",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "instanceName": "SQLEXPRESS",
+        "encrypt": false,
+        "trustServerCertificate": true
+      }
+    }
+  }
+}

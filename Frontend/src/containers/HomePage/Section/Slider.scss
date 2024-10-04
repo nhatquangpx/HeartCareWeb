@@ -1,0 +1,107 @@
+$color_1:#edfffa;
+.home-header-banner {
+    font-family: Montserrat, sans-serif;
+    // background         : url('../../assets/imageHome.jpg');
+    // background-color: $color_1;
+    height             : 500px;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: center;
+
+    display       : flex;
+    flex-direction: column;
+    position: relative;
+
+    .home-header-banner-space{
+        width: 100%;
+        height: 350px;
+        background-color: $color_1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .slider{
+        width: 1200px;
+        max-width: 100vw;
+        height: 600px;
+        margin: auto; 
+        /* Can le tu dong */
+        margin-top: 40px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 40px;
+        z-index: 2;
+    }
+    
+    .slider .list{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        display: flex;
+        width: max-content;
+        transition: 1s;
+    }
+    
+    .slider .list img{
+        width: 1200px;
+        max-width: 100vw;
+        height: 100%;
+        object-fit: cover;
+        /* tu cover anh de anh ko meo */
+    }
+    
+    .slider .buttons{
+        position: absolute;
+        top: 45%;
+        left: 5%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .slider .buttons button{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #ccc;
+        color: #fff;
+        border: none;
+        font-family: monospace;
+        font-weight: bold;
+    }
+    
+    .slider .dots{
+        position: absolute;
+        bottom: 10px;
+        color: #fff;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .slider .dots li {
+        list-style: none;
+        /* Xoa cac dau cham cua the li */
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        margin: 20px;
+        border-radius: 20px;
+        transition: 1s;
+    }
+    
+    .slider .dots li.active{
+        width: 30px;
+    }
+    
+    @media screen and (max-width: 768px){
+        .slider{
+            height: 400px;
+        }
+    }
+}

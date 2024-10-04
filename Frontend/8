@@ -1,0 +1,11 @@
++ ajv@8.14.0
++ jquery@3.7.1
++ react@16.3.0
++ react-dom@16.3.0
+added 20 packages from 134 contributors, removed 1 package, updated 4 packages and audited 1592 packages in 46.477s
+
+268 packages are looking for funding
+  run `npm fund` for details
+
+found 6 vulnerabilities (1 low, 2 moderate, 2 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details

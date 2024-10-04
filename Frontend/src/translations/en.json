@@ -1,0 +1,88 @@
+{
+    "home-header": {
+        "speciality": "Medical speciality",
+        "searchdoctor": "Find a doctor by speciality",
+        "welcome": "Welcome",
+        "Health facilities": "Health facilities",
+        "Choose hospital clinic": "Choose hospital clinic",
+        "Doctor": "Doctor",
+        "choose a good doctor": "Choose a good doctor",
+        "Checkup package": "Checkup package",
+        "General health check Support": "General health check Support",
+        "Support": "Support"
+    },
+    "detail-doctor": {
+        "calendar": "Calendar",
+        "text": "The doctor has no appointment at the moment!",
+        "address": "Address",
+        "price": "Price",
+        "detail": "Show details",
+        "hide": "Hide",
+        "infor-booking": "Information for scheduling a medical appointment",
+        "name": "Name",
+        "sdt": "PhoneNumber",
+        "address-user": "Address",
+        "reason": "Reason for examination",
+        "to whom": "To whom?",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "sex": "Sex",
+        "birthday": "date",
+        "province": "Province",
+        "outstanding-doctor": "Outstanding Doctor"
+    },
+    "detail-specialty": {
+        "see-more": "See more"
+    },
+    "manage-user": {
+        "edit": "Edit",
+        "save": "Save"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Users System",
+            "manage-doctor": "Manage doctors",
+            "manage-admin": "Manage admins",
+            "crud": "CRUD user",
+            "crud-redux": "Manage accounts",
+            "manage-clinic": "Manage clinics",
+            "clinic": "Clinics",
+            "list-clinic": "List Clinics",
+            "edit-clinic": "Edit Clinics",
+            "manage-speciality": "Manage Specialties",
+            "edit-speciality": "Edit Specialties",
+            "list-speciality": "List Specialties",
+            "speciality": "Specialties",
+            "manage-handbook": "Manage Handbooks",
+            "handbook": "Handbooks"
+        },
+        "doctor": {
+            "manage-schedule": "Manage Doctor's Schedule",
+            "manage-patient": "Management of medical examination patients"
+        }
+    },
+    "manage-doctor": {
+        "save": "Save",
+        "edit": "Update",
+        "selected-doctor": "Choose a doctor",
+        "info-doctor": "Doctor's Information"
+    },
+    "manage-schedule": {
+        "title": "Manage Doctor's Examination plan",
+        "save": "Save",
+        "selected-doctor": "Choose a doctor",
+        "selected-date": "Choose date"
+    },
+    "manage-patient": {
+        "title": "Management of medical examination patients",
+        "bill": "medical bills",
+        "email": "Patient email:",
+        "chooseFile": "Choose file",
+        "time": "Time",
+        "name": "Name",
+        "phone": "Phone number",
+        "address": "Address",
+        "sex": "Sex",
+        "chooseDay": "Choose Day"
+    }
+}

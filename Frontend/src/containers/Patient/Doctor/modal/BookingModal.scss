@@ -1,0 +1,88 @@
+div._loading_overlay_wrapper {
+    position: unset;
+
+    ._loading_overlay_wrapper {
+        z-index: 100;
+    }
+}
+
+.booking-modal-content {
+    height        : 500px;
+    display       : flex;
+    flex-direction: column;
+
+    .booking-modal-header {
+        padding       : 4px;
+        margin        : 0 3px;
+        border-bottom : 1px solid #ccc;
+        text-transform: uppercase;
+
+        .left {
+            font-size  : 16px;
+            font-weight: 600;
+            color      : #333;
+        }
+
+        .right {
+            float        : right;
+            cursor       : pointer;
+            padding-right: 5px;
+            transition   : transform .2s;
+
+            &:hover {
+                color    : rgb(139, 134, 134);
+                transform: scale(1.5);
+            }
+        }
+    }
+
+    .booking-modal-body {
+        padding: 15px;
+        height : 100%;
+
+        .row {
+            .form-group {
+                margin-bottom: 5px;
+
+                label {
+                    margin-bottom: 3px;
+                }
+            }
+        }
+    }
+
+    .booking-modal-footer {
+        border-top     : 1px solid #ccc;
+        padding        : 5px;
+        display        : flex;
+        justify-content: flex-end;
+        gap            : 15px;
+
+        button {
+            border       : none;
+            outline      : none;
+            padding      : 5px 8px;
+            border-radius: 3px;
+            width        : 100px;
+            height       : auto;
+        }
+
+        .btn-confirm {
+            background-color: rgb(50, 48, 152);
+            color           : #fff;
+
+            &:hover {
+                background-color: rgb(107, 106, 201);
+            }
+        }
+
+        .btn-cancel {
+            background-color: rgb(232, 186, 34);
+            color           : #fff;
+
+            &:hover {
+                background-color: rgb(242, 198, 86);
+            }
+        }
+    }
+}

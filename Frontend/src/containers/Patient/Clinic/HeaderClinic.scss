@@ -1,0 +1,95 @@
+.container-header-clinic {
+    min-height      : 350px;
+    margin          : 0;
+    position        : relative;
+    background-color: #fff;
+
+    .img-header {
+        width              : 100%;
+        background-image   : url('../../../assets/images/Screenshot\ 2023-08-16\ 202229.png');
+        height             : 50%;
+        background-repeat  : no-repeat;
+        background-size    : 100%;
+        background-position: center;
+        position           : absolute;
+        z-index            : 0;
+    }
+
+    .nav {
+        position        : absolute;
+        z-index         : 1;
+        top             : 30%;
+        height          : 160px;
+        width           : calc(100% - 40px);
+        box-shadow      : 0px 1px 6px rgba(32, 33, 36, 0.28);
+        background-color: rgba(255, 255, 255, 0.80);
+        margin-left     : auto;
+        margin-right    : auto;
+        left            : 20px;
+        display         : flex;
+        flex-direction  : column;
+
+        .top {
+            display    : flex;
+            height     : 70%;
+            align-items: center;
+
+            .img {
+                background-image   : url('../../../assets/Medical-Facility/083122lo-go-viet-duc.jpg');
+                background-repeat  : no-repeat;
+                background-size    : 100%;
+                background-position: center;
+                width              : 170px;
+                height             : 120px;
+                border             : 1px solid rgb(220, 216, 216);
+                margin             : 40px 25px 0;
+                box-shadow         : 0px 1px 6px rgba(32, 33, 36, 0.28);
+            }
+
+            .top-text {
+                display       : flex;
+                flex-direction: column;
+
+                .text-name {
+                    font-size: 25px;
+                }
+
+                .text-address {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .bot {
+            display        : flex;
+            height         : 30%;
+            justify-content: center;
+            gap            : 50px;
+            text-transform : uppercase;
+            align-items    : center;
+            font-size      : 15px;
+            font-weight    : 500;
+            cursor         : pointer;
+
+            p {
+                padding-top: 25px;
+            }
+        }
+    }
+
+    .des {
+        z-index : 3;
+        position: absolute;
+        bottom  : 0;
+        width   : calc(100% - 40px);
+        left    : 20px;
+
+        .des-top {
+            background-color: #ffecb2;
+            padding         : 10px 20px;
+            margin-bottom   : 10px;
+        }
+
+    }
+
+}

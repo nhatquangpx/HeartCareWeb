@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Reset Css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+input {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Content */
+#content {
+    // margin-top: 20px;
+    background: none;
+}
+
+.user-schedule__container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.user-schedule__appointment-schedule {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.user-schedule__form-group-schedule {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    position: relative;
+}
+
+.user-schedule__form-group-schedule i {
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.user-schedule__form-group-schedule label {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.user-schedule__input-schedule {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.user-schedule__box-container {
+    margin-top: 20px;
+}
+
+.user-schedule__box {
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    width: 600px;
+    padding: 10px 30px;
+}
+
+.user-schedule__box-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user-schedule__box-left .user-schedule__avt img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.user-schedule__box-left .user-schedule__avt span {
+    display: block;
+    margin-top: 4px;
+}
+
+.user-schedule__box-left .user-schedule__time {
+    margin-top: 10px;
+}
+
+.user-schedule__box-right {
+    margin-left: 80px;
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user-schedule__box-right .user-schedule__info p {
+    margin-top: 10px;
+}
+
+.user-schedule__box-right .user-schedule__cancel .user-schedule__btn-cancel {
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.user-schedule__box-right .user-schedule__cancel .user-schedule__btn-cancel:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.user-schedule__box-right .user-schedule__cancel {
+    margin-top: 20px;
+}
+
+.user-schedule__model,
+.user-schedule__model_2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.user-schedule__model.show,
+.user-schedule__model_2.show2 {
+    display: flex;
+}
+
+.user-schedule__box-cancel {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 0 auto;
+}
+
+.user-schedule__box-cancel-2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin: 0 auto;
+    color: red;
+}
+
+.user-schedule__box-cancel,
+.user-schedule__box-cancel-2 p {
+    text-align: center;
+}
+
+.user-schedule__sure-or-not-sure {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.user-schedule__btn-sure,
+.user-schedule__btn-not-sure {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.user-schedule__btn-sure {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.user-schedule__btn-not-sure {
+    background-color: #ccc;
+    color: #333;
+}
+
+.user-schedule__btn-sure:hover,
+.user-schedule__btn-not-sure:hover {
+    opacity: 0.8;
+}
+
+.user-schedule__time {
+    color: rgb(255, 191, 0);
+}

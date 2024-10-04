@@ -1,0 +1,53 @@
+.manage-doctor-container {
+    padding: 5px;
+
+    .manage-doctor-title {
+        text-align    : center;
+        margin        : 15px 0;
+        font-size     : 20px;
+        text-transform: uppercase;
+        font-weight   : 600;
+    }
+
+    .btn-save {
+        margin          : 20px 0;
+        outline         : none;
+        background-color: #807e7e;
+        width           : 100px;
+        color           : #fff;
+
+        &:hover {
+            background-color: #a19f9f;
+        }
+    }
+
+    .btn-edit {
+        margin          : 20px 0;
+        outline         : none;
+        background-color: #1d32d3;
+        width           : 100px;
+        color           : #fff;
+
+        &:hover {
+            background-color: #a19f9f;
+        }
+    }
+
+    .more-info {
+        display      : flex;
+        gap          : 15px;
+        margin-bottom: 20px;
+
+        .content-left {
+            width: 30%;
+        }
+
+        .content-right {
+            width: 70%;
+        }
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+}

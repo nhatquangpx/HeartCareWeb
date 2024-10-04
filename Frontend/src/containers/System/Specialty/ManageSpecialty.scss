@@ -1,0 +1,31 @@
+.manage-specialty-container {
+    .add-new-specialty {
+        .form-group {
+            margin: 15px 0;
+        }
+
+        .lable-upload {
+            padding         : 5px;
+            border-radius   : 5px;
+            background-color: #ddd;
+            cursor          : pointer;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+
+        button {
+            padding         : 5px;
+            border-radius   : 5px;
+            background-color: #2d7fa2;
+            color           : #fff;
+            cursor          : pointer;
+            margin          : 5px;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+}

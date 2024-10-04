@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Reset Css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+input {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+/* Header */
+.user-header__container {
+    background-color: #edfffa;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.user-header__nav {
+    width: 1350px;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-header__logo {
+    width: 220px;
+    height: 64px;
+    background: url(../../../assets/new_logo.png) center center no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.user-header__nav-bar {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.user-header__nav-bar li a {
+    font-size: 18px;
+    color: #000;
+    display: block;
+    padding: 10px 12px;
+    margin: 0 10px;
+}
+
+.user-header__nav-bar li a.active {
+    color: black;
+}

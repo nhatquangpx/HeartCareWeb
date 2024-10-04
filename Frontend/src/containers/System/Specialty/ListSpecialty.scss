@@ -1,0 +1,31 @@
+.s-container {
+    position: relative;
+    width   : 100%;
+
+    .s-header {
+        width     : 100%;
+        padding   : 10px;
+        box-shadow: #a0a1a3 0px 1px 6px 0px;
+        font-size : 20px;
+        position  : fixed;
+        top       : 0;
+        left      : 0;
+        z-index   : 1;
+
+        .fas {
+            padding: 0 5px;
+            cursor : pointer;
+        }
+    }
+
+    .s-body {
+        position: absolute;
+        width   : 100%;
+        z-index : 0;
+        top     : 55px;
+
+        .img {
+            width: 100px;
+        }
+    }
+}

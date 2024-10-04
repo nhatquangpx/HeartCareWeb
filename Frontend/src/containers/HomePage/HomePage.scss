@@ -1,0 +1,223 @@
+.Header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.Content, .Footer {
+    position: relative;
+    overflow: visible; /* Đảm bảo overflow là visible */
+}
+
+.slick-prev {
+    border          : 1px solid rgb(181, 231, 237) !important;
+    z-index         : 2 !important;
+    height          : 40px !important;
+    width           : 40px !important;
+    left            : -10px !important;
+    background-color: #fff !important;
+    border-radius   : 10px !important;
+}
+
+.slick-prev:before {
+    font-family: "Font Awesome 5 Free" !important;
+    content    : "\f053" !important;
+    color      : #34929e !important; /* Thay đổi màu của mũi tên */
+    font-weight: 700; 
+}
+
+.slick-next {
+    border          : 1px solid rgb(181, 231, 237) !important;
+    z-index         : 2 !important;
+    height          : 40px !important;
+    width           : 40px !important;
+    right           : -10px !important;
+    background-color: #fff !important;
+    border-radius   : 10px !important;
+}
+
+.slick-next:before {
+    font-family: "Font Awesome 5 Free" !important;
+    content    : "\f054" !important;
+    color      : #34929e !important; /* Thay đổi màu của mũi tên */
+    font-weight: 700; 
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+//---------------------------------------------
+//section common styles
+$color: #f5f5f5;
+$button_color: #daf3f6;
+
+.section-speciality {
+    // margin-top: 20px;
+    background: #fff;
+}
+
+.section-about {
+    height: 467px !important;
+    background: $color;
+    }
+
+
+//---------------------------------------------
+.section-share {
+    width: 100%;
+    height: 460px;
+
+    &.section-outstandingdoctor {
+        background-image: url('../../assets/OutStandingDoctor/bgr.png');
+        background-size: cover; 
+        background-position: center; /* Đặt vị trí ảnh nền ở giữa */
+    }
+
+    .section-container {
+        width: 1200px;
+        height: 420px;
+        margin: auto;
+        margin-top: 50px;// margin: 0 50px;
+
+        .section-header {
+            height         : 60px;
+            display        : flex;
+            justify-content: space-between;
+            align-items    : center;
+            padding-top    : 30px;
+            margin-bottom  : 30px;
+
+            span {
+                max-width: 85%;
+                font-size: 24px;
+            }
+
+            button {
+                max-width       : 15%;
+                width           : 124px;
+                height          : 52px;
+                font-size       : 20px;
+                background-color: $button_color;
+                border-radius   : 20px;
+                color           : #34929e;
+                cursor : pointer;
+                font-weight     : normal; 
+
+                &:hover {
+                    background-color: #efd949;
+                    color           : #ffff;
+                }
+            }
+        }
+
+        .section-body {
+            margin: 0px -20px;
+
+            .slider-customize {
+                padding: 0px;
+
+                .slider-handbook {
+                    display: flex;
+                    justify-content: flex-end;
+                }
+
+                .slider-wrapper {
+                    // display       : inline-block;
+                    padding       : 20px;
+                    cursor        : pointer;
+                    margin        : 0px 20px;   
+                
+                    &.wrapper-speciality {
+                        width: 370px;
+                        border        : 2px solid #f1f1f1;
+                        border-radius : 10px;
+                    }
+                    
+                    &.wrapper-doctor {
+                        // border    : 1px solid #d5d3d3;
+                        width       : 264px;
+
+                        .img-outstandingdoctor {
+                            width        : 222px;
+                            height       : 222px;
+                            margin       : 0 auto;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    &.wrapper-handbook {
+                        width: 370px;
+                        border        : 2px solid #f1f1f1;
+                        border-radius : 10px;
+                    }
+
+                    .bg-image {
+                        background-position: center center;
+                        background-repeat  : no-repeat;
+                        background-size    : cover;
+                        border-radius      : 10px;
+
+                        &.img-speciality {
+                            width              : 330px;
+                            height             : 215px;
+                        }
+
+                        // Dau & dung de tham chieu den phan tu cha hien tai
+                        &.img-handBook1 {
+                            width              : 330px;
+                            height             : 215px;
+                            background-image: url('../../assets/HandBook/handbook1.jpeg');
+                        }
+
+                        &.img-handBook2 {
+                            width              : 330px;
+                            height             : 215px;
+                            background-image: url('../../assets/HandBook/handbook2.jpg');
+                        }
+
+                        // &.img-medical-facility {
+                        //     border: 1px solid rgb(172, 166, 166);
+                        // }
+                    }
+
+                    .text {
+                        font-size : 18px;
+                        padding-top: 24px;
+                        margin-bottom: 4px;
+                        text-align: center;
+                        
+                        &.text-doctor {
+                            margin-left: -15px;
+                            margin-right: -15px;
+                        }
+
+                        &:hover {
+                            color: #2d7fa2;
+                        }
+                    }
+
+                    .text-center {
+                        text-align: center;
+                    }
+                }
+            }
+            .section-left {
+                margin: 0 20px;
+            }
+         }
+    }
+}
+
+.home-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #64b9e5;
+    p {
+        margin: 0px;
+        font-size: 16px;
+        color: #fff;
+    }
+}
